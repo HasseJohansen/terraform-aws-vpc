@@ -281,7 +281,7 @@ variable "public_route_table_tags" {
 }
 
 variable "public_enable_default_route" {
-  description = "Disable default route to internet gateway for public subnets"
+  description = "Enable default route to internet gateway for public subnets"
   type        = bool
   default     = true
 }
